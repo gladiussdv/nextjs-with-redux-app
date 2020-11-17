@@ -7,7 +7,7 @@ import Nav from './nav'
 export default function Page() {
   const dispatch = useDispatch();
 
-  // Tick the time every second
+  // Tick the time every second!!!
   useInterval(() => {
     dispatch({
       type: 'TICK',
